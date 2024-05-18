@@ -498,10 +498,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceaee37ae3918fc4f8edb784bad737ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myStartPosition: {x: 0, y: 0, z: 51}
-  myEndPosition: {x: 0, y: 0, z: 21}
+  MinPosition: {x: 0, y: 0, z: 20}
+  MaxPosition: {x: 0, y: 0, z: 51}
   speed: 3
-  forward: 1
+  dir: 0
+  positive_mov: 1
 --- !u!1 &2098113028
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerBehaviour : MonoBehaviour
 {
     public float MoveSpeed = 10f;
-    public float RotateSpeed = 75f;
+    public float RotateSpeed = 85f;
     private float _vInput;
     private float _hInput;
     private Rigidbody _rb;
@@ -29,7 +29,7 @@ public class PlayerBehaviour : MonoBehaviour
         _hInput = Input.GetAxis("Horizontal") * RotateSpeed;
 
         /*
-        this.transform.Translate(Vector3.forward * _vInput * Time.deltaTime);
+        this.transform.Translate(Vector3.positive_mov * _vInput * Time.deltaTime);
 
         this.transform.Rotate(Vector3.up * _hInput * Time.deltaTime);
         */

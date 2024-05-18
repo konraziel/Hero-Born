@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 10
-  RotateSpeed: 75
+  RotateSpeed: 100
   JumpVelocity: 5
   DistanceToGround: 0.1
   GroundLayer:
