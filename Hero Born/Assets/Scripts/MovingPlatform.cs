@@ -14,12 +14,12 @@ public class MovingPlatform : MonoBehaviour
     void Update()
     {
 
-        //If we reach the end then change our direction boolean to go backward
+        //If we reach the end then change our direction boolean to go forwards
         if (gameObject.transform.position.z <= myEndPosition.z)
         {
             forward = true;
         }
-        //If we reach the begining then change our direction boolean to go forward
+        //If we reach the begining then change our direction boolean to go backwards
         if (gameObject.transform.position.z >= myStartPosition.z)
         {
             forward = false;

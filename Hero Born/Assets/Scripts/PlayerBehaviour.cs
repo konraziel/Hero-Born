@@ -33,7 +33,7 @@ public class PlayerBehaviour : MonoBehaviour
 
         this.transform.Rotate(Vector3.up * _hInput * Time.deltaTime);
         */
-        _isJumping |= Input.GetKeyDown(KeyCode.J);
+        _isJumping |= Input.GetKeyDown(KeyCode.Space);
     }
 
     void FixedUpdate()
